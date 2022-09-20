@@ -1,0 +1,25 @@
+* [33m92a644c[m[33m ([m[1;36mHEAD -> [m[1;32mdimitri_experimental[m[33m, [m[1;31morigin/dimitri_experimental[m[33m)[m Initial configuration (bugged)
+* [33md4c92f5[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m test: :heavy_plus_sign: Added jest with babel
+* [33m96dbd26[m style: :lipstick: Change prettier format from 2 spaces to 4 spaces
+* [33m6472a75[m chore: :page_facing_up: Change license + update urls
+*   [33m4865d31[m Merge branch 'main' of https://github.com/chess-boom/extension
+[32m|[m[33m\[m  
+[32m|[m *   [33m1e4b2e2[m Merge pull request #1 from chess-boom/add-license-1
+[32m|[m [34m|[m[35m\[m  
+[32m|[m [34m|[m * [33m2890f25[m[33m ([m[1;31morigin/add-license-1[m[33m)[m Create LICENSE.md
+[32m|[m [34m|[m[34m/[m  
+* [34m/[m [33m36dd31c[m style: :wrench: Added git hooks
+[34m|[m[34m/[m  
+*   [33md101e5e[m Merge branch 'main' of https://github.com/chess-boom/extension
+[36m|[m[1;31m\[m  
+[36m|[m * [33md292a4b[m Update README.md
+[36m|[m * [33med288ce[m Update webpack.yml
+[36m|[m * [33m94c8677[m Created GitHub Action webpack.yml
+* [1;31m|[m [33mcc554ac[m docs: :memo: Add importing steps
+[1;31m|[m[1;31m/[m  
+[1;31m|[m * [33m47828d8[m[33m ([m[1;31morigin/react[m[33m)[m fix: :recycle: Update manifest.json to display proper icons
+[1;31m|[m * [33m04d5b64[m feat: :tada: Initialize react project
+[1;31m|[m[1;31m/[m  
+* [33m339298b[m Update README.md
+* [33mba710da[m feat: :sparkles: Initial configuration
+* [33md8c0d88[m Initial commit
