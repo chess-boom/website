@@ -26,3 +26,6 @@ jobs:
       run: |
         npm install --save-dev
         npm run build
+    - name: Test
+      run: |
+        npm run coverage
