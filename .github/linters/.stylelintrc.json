@@ -2,15 +2,19 @@
     "extends": "stylelint-config-standard",
     "ignoreFiles": ["src/index.css"],
     "rules": {
-        "max-empty-lines": 4,
-        "string-quotes": "single",
-        "function-url-quotes": "single",
-        "color-hex-length": "long",
-        "media-feature-no-missing-punctuation": null,
-        "declaration-colon-newline-after": null,
-        "font-family-name-quotes": null,
-        "number-leading-zero": "never",
-        "value-list-comma-newline-after": null,
-        "max-nesting-depth": 2
+        "indentation": 4,
+        "number-max-precision": [
+            4,
+            {
+                "severity": "warning"
+            }
+        ],
+        "max-nesting-depth": null,
+        "selector-max-compound-selectors": null,
+        "order/properties-alphabetical-order": null,
+        "selector-no-qualifying-type": null,
+        "number-leading-zero": null,
+        "property-no-vendor-prefix": null,
+        "selector-max-id": null
     }
 }
