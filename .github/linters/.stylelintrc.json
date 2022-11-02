@@ -1,5 +1,6 @@
 {
     "extends": "stylelint-config-standard",
+    "ignoreFiles": ["src/index.css"],
     "rules": {
         "max-empty-lines": 4,
         "string-quotes": "single",
