@@ -1,12 +1,12 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
-function topnav() {
+function Topnav() {
     return (
         <>
-            <Navbar bg="dark">
+            <Navbar bg="dark" data-testid="navbar">
                 <Container>
                     <Navbar.Brand>Navbar</Navbar.Brand>
                     <Nav className="me-auto">
@@ -20,4 +20,4 @@ function topnav() {
     );
 }
 
-export default topnav;
+export default Topnav;
