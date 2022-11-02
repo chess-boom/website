@@ -1,5 +1,8 @@
 # Chess Boom Website
 
+[![NodeJS with Webpack](https://github.com/chess-boom/website/actions/workflows/webpack.yml/badge.svg)](https://github.com/chess-boom/website/actions/workflows/webpack.yml)
+[![Lint Code Base](https://github.com/chess-boom/website/actions/workflows/super-linter.yml/badge.svg)](https://github.com/chess-boom/website/actions/workflows/super-linter.yml)
+
 ## Debug Scripts
 
 ### `npm start`
