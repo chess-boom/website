@@ -9,9 +9,11 @@
                 "severity": "warning"
             }
         ],
+        "declaration-colon-newline-after": null,
+        "value-list-comma-newline-after": null,
         "max-nesting-depth": null,
         "selector-max-compound-selectors": null,
-        "order/properties-alphabetical-order": null,
+        "properties-alphabetical-order": null,
         "selector-no-qualifying-type": null,
         "number-leading-zero": null,
         "property-no-vendor-prefix": null,
