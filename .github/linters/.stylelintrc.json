@@ -1,0 +1,21 @@
+{
+    "extends": "stylelint-config-standard",
+    "ignoreFiles": ["src/index.css"],
+    "rules": {
+        "indentation": 4,
+        "number-max-precision": [
+            4,
+            {
+                "severity": "warning"
+            }
+        ],
+        "declaration-colon-newline-after": null,
+        "value-list-comma-newline-after": null,
+        "max-nesting-depth": null,
+        "selector-max-compound-selectors": null,
+        "selector-no-qualifying-type": null,
+        "number-leading-zero": null,
+        "property-no-vendor-prefix": null,
+        "selector-max-id": null
+    }
+}
