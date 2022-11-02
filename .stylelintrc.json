@@ -1,7 +1,7 @@
 {
     "extends": "stylelint-config-standard",
     "rules": {
-        "tab": 4,
+        "indentation": 4,
         "max-empty-lines": 4,
         "string-quotes": "single",
         "function-url-quotes": "single",
