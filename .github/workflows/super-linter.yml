@@ -24,7 +24,7 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter/slim@v4
         env:
-          CSS_FILE_NAME: linters/.stylelintrc.json
+          CSS_FILE_NAME: .stylelintrc.json
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_CSS: true
           VALIDATE_HTML: true
