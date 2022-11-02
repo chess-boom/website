@@ -71,7 +71,7 @@
     "dependencies": {
         "@babel/core": "^7.16.0",
         "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
-        "@svgr/webpack": "^5.5.0",
+        "@svgr/webpack": "^6.5.1",
         "babel-loader": "^8.2.3",
         "babel-preset-react-app": "^10.0.1",
         "bfj": "^7.0.2",
