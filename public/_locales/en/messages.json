@@ -1,0 +1,13 @@
+{
+    "appName": {
+        "message": "Chess Boom"
+    },
+    "extName": {
+        "message": "Chess Boom",
+        "description": "Safari consideration: name must be shorter than 40 chars"
+    },
+    "extDesc": {
+        "message": "A Website to download the Chess Boom app.",
+        "description": "Website description"
+    }
+}
