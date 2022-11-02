@@ -18,7 +18,6 @@
     "bugs": {
         "url": "https://github.com/chess-boom/website/issues"
     },
-    "homepage": "https://github.com/chess-boom/website#readme",
     "browserslist": {
         "production": [
             ">0.2%",
