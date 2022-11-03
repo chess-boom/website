@@ -1,6 +1,6 @@
-.App {
-    /* eslint-disable-line no-kebab-case */
-    text-align: center;
+.content {
+    color: white;
+    padding: 30px;
 }
 
 h1 {

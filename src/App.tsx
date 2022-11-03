@@ -1,11 +1,11 @@
 import "./App.css";
 import React from "react";
-//import Topnav from './components/topnav';
-import DownloadButton from "./components/downloadButton";
+// import Topnav from './Components/Topnav';
+import DownloadButton from "./Components/DownloadButton";
 
 function App() {
     return (
-        <div style={{ color: "white", backgroundColor: "#1F1E1E", padding: "30px" }} data-testid="main">
+        <div className="content" data-testid="main">
             <h1> Download Chessboom </h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
