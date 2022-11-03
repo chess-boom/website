@@ -24,3 +24,7 @@ Generate coverage report.
 Builds the app for production to the `build` folder.
 
 The build is minified and the filenames include the hashes.
+
+## Selenium Test
+
+In order to run the selenium test file (.side), the selenium chrome extension needs to be downloaded. Afterwards, start the website in localhost:3000, import the .side file in the extension and run the test.
