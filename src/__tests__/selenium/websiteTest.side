@@ -1,0 +1,42 @@
+{
+  "id": "e7188e3f-2fbc-4db2-85e1-2274f6bed930",
+  "version": "2.0",
+  "name": "chess-boom",
+  "url": "http://localhost:3000/",
+  "tests": [{
+    "id": "fdf9da29-10a3-4952-af85-e9e8ec6540d7",
+    "name": "validating Components",
+    "commands": [{
+      "id": "c04018d5-33d4-4d82-afd7-f5125bfb130f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0da133bc-cb15-424a-9180-06fdf7bb74b1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68756b89-fb0e-4fc4-8de4-f0fc5033ddab",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=downloadBtn",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5ded72d5-f028-421f-a3ef-06fbbc8ed627",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:3000/", "localhost:3000"],
+  "plugins": []
+}
