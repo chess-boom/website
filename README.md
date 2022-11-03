@@ -13,7 +13,7 @@ Runs the app in dev mode.
 
 Launches the test runner in the interactive watch mode.
 
-### `npm test -- --coverage`
+### `npm run coverage`
 
 Generate coverage report.
 
