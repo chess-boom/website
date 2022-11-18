@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  portfolio:
+    build:
+      context: .
+    container_name: portfolio
+    image: portfolio
+    restart: unless-stopped
+    working_dir: /usr/src/app
+    networks:
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.portfolio.rule=Host(`${URL}`)"
+      - "traefik.http.routers.portfolio.entrypoints=https"
+      - "traefik.http.routers.portfolio.tls=true"
+      - "traefik.http.routers.portfolio.tls.certresolver=mydnschallenge"
+
+networks:
+  proxy:
+    external: true
