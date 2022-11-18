@@ -1,4 +1,4 @@
-FROM node:16-alpine as base
+FROM node:16-alpine as build
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
@@ -7,6 +7,6 @@ RUN npm run build
 
 FROM nginx:stable-alpine as deploy
 ARG port
-COPY --from=base /app/dist /usr/share/nginx/html
+COPY --from=build /app/build /usr/share/nginx/html
 EXPOSE $port
 CMD ["nginx", "-g", "daemon off;"]
