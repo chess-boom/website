@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  website:
+    build:
+      context: .
+    container_name: website
+    image: website
+    restart: unless-stopped
+    working_dir: /usr/src/app
+    networks:
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.website.rule=Host(`${URL}`)"
+      - "traefik.http.routers.website.entrypoints=https"
+      - "traefik.http.routers.website.tls=true"
+      - "traefik.http.routers.website.tls.certresolver=mydnschallenge"
+
+networks:
+  proxy:
+    external: true
