@@ -33,9 +33,9 @@
     "start_url": ".",
     "devDependencies": {
         "@babel/runtime": "^7.20.1",
-        "@emotion/react": "^11.10.4",
-        "@emotion/styled": "^11.10.4",
-        "@mui/material": "^5.11.3",
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@mui/material": "^5.11.15",
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",
         "@tsconfig/create-react-app": "^1.0.3",
@@ -70,6 +70,7 @@
     },
     "dependencies": {
         "@babel/core": "^7.16.0",
+        "@mui/icons-material": "^5.11.11",
         "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
         "@svgr/webpack": "^6.5.1",
         "babel-loader": "^8.2.3",
