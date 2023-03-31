@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
-import DownloadButton from "./Components/DownloadButton"
-import ExtensionButton from "./Components/ExtensionButton"
+import DownloadButton from "./Components/DownloadButton";
+import ExtensionButton from "./Components/ExtensionButton";
 import GitButton from "./Components/GitButton";
 import Application from "./media/ProfilePage.gif";
 import Extension from "./media/cBoomDownload.gif";
