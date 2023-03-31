@@ -1,5 +1,4 @@
 import "./App.css";
-import React from "react";
 import DownloadButton from "./Components/DownloadButton";
 import ExtensionButton from "./Components/ExtensionButton";
 import GitButton from "./Components/GitButton";
