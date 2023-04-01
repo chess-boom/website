@@ -5,13 +5,13 @@ import GitButton from "./Components/GitButton";
 import Application from "./media/ProfilePage.gif";
 import Extension from "./media/cBoomDownload.gif";
 
-import { Grid, Box } from '@mui/material';
+import { Grid, Box, Divider } from '@mui/material';
 
 function App() {
     return (
         <div className="content" data-testid="main">
             <h1> Download Chess Boom </h1>
-            <Grid container textAlign={"center"} spacing={1} marginTop={3} marginBottom={8}>
+            <Grid container textAlign={"center"} spacing={1} marginTop={1} marginBottom={2}>
                 <Grid item xs={6}>
                     <p>
                         Chess Boom is an application intended for new chess players to take their chess games to the next level!
@@ -19,7 +19,7 @@ function App() {
                     <Box
                         component="img"
                         sx={{
-                            maxHeight: { xs: 50, md: 300 },
+                            maxHeight: { xs: 50, md: 250 },
                             marginTop: "10px"
                         }}
                         alt={"App"}
@@ -33,7 +33,7 @@ function App() {
                     <Box
                         component="img"
                         sx={{
-                            maxHeight: { xs: 50, md: 300 },
+                            maxHeight: { xs: 50, md: 250 },
                             marginTop: "10px"
                         }}
                         alt={"Extension"}
@@ -89,8 +89,8 @@ function App() {
                     </div>
                 </Grid>
             </Grid> 
-
-            <Grid container textAlign={"center"}>
+            <Divider sx={{borderColor: "#6ac1ff"}}/>
+            <Grid container textAlign={"center"}  marginTop={2}>
                 <Grid item xs={12} >
                     <p>
                         The Chess Boom app will introduce you to new techniques and provide intuitive advice to new/experienced chess players.
