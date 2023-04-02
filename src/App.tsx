@@ -11,7 +11,7 @@ function App() {
     return (
         <div className="content" data-testid="main">
             <h1> Download Chess Boom </h1>
-            <Grid container textAlign={"center"} spacing={1} marginTop={1} marginBottom={2}>
+            <Grid container textAlign={"center"} spacing={1} marginTop={1} marginBottom={3}>
                 <Grid item xs={6}>
                     <p>
                         Chess Boom is an application intended for new chess players to take their chess games to the next level!
@@ -89,8 +89,7 @@ function App() {
                     </div>
                 </Grid>
             </Grid> 
-            <Divider sx={{borderColor: "#6ac1ff"}}/>
-            <Grid container textAlign={"center"}  marginTop={2}>
+            <Grid container textAlign={"center"}  marginBottom={2}>
                 <Grid item xs={12} >
                     <p>
                         The Chess Boom app will introduce you to new techniques and provide intuitive advice to new/experienced chess players.
@@ -100,6 +99,20 @@ function App() {
                     </p>
                     <p>
                         Don't hestitate to start your journey with Chess Boom!
+                    </p>
+                    <p style={{ fontSize: "10px" }}>
+                        Chess analysis was made possible by <a href="https://stockfishchess.org/" target="_blank">Stockfish</a> and <a href="https://fairy-stockfish.github.io/" target="_blank">Fairy Stockfish</a>.
+                    </p>
+                </Grid>
+            </Grid>
+            <Divider sx={{borderColor: "#6ac1ff"}}/>
+            <Grid container textAlign={"center"}  marginTop={2}>
+                <Grid item xs={12} >
+                    <p>
+                    This project was created in the 2022-2023 school year at Concordia University as a Capstone project.
+                    </p>
+                    <p> 
+                    Our team consists of 8 Software Engineering students in their final year of study
                     </p>
                     <div
                         style={{
