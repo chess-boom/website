@@ -88,31 +88,31 @@ function App() {
                         </p>
                     </div>
                 </Grid>
-            </Grid> 
-            <Grid container textAlign={"center"}  marginBottom={2}>
+            </Grid>
+            <Grid container textAlign={"center"} marginBottom={2}>
                 <Grid item xs={12} >
                     <p>
                         The Chess Boom app will introduce you to new techniques and provide intuitive advice to new/experienced chess players.
                     </p>
                     <p>
-                        We also support different variations of chess, like Atomic Chess. 
+                        We also support different variations of chess, like Atomic Chess.
                     </p>
                     <p>
                         Don't hestitate to start your journey with Chess Boom!
                     </p>
                     <p style={{ fontSize: "10px" }}>
-                        Chess analysis was made possible by <a href="https://stockfishchess.org/" target="_blank">Stockfish</a> and <a href="https://fairy-stockfish.github.io/" target="_blank">Fairy Stockfish</a>.
+                        Chess analysis was made possible by <a href="https://stockfishchess.org/" target="_blank" rel="noreferrer">Stockfish</a> and <a href="https://fairy-stockfish.github.io/" target="_blank" rel="noreferrer">Fairy Stockfish</a>.
                     </p>
                 </Grid>
             </Grid>
-            <Divider sx={{borderColor: "#6ac1ff"}}/>
-            <Grid container textAlign={"center"}  marginTop={2}>
+            <Divider sx={{ borderColor: "#6ac1ff" }} />
+            <Grid container textAlign={"center"} marginTop={2}>
                 <Grid item xs={12} >
                     <p>
-                    This project was created in the 2022-2023 school year at Concordia University as a Capstone project.
+                        This project was created in the 2022-2023 school year at Concordia University as a Capstone project.
                     </p>
-                    <p> 
-                    Our team consists of 8 Software Engineering students in their final year of study
+                    <p>
+                        Our team consists of 8 Software Engineering students in their final year of study
                     </p>
                     <div
                         style={{
