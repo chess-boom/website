@@ -6,12 +6,6 @@ import Application from "./media/ProfilePage.gif";
 import Extension from "./media/cBoomDownload.gif";
 
 import { Grid, Box, Divider } from '@mui/material';
-import ExtensionButton from "./Components/ExtensionButton";
-import GitButton from "./Components/GitButton";
-import Application from "./media/ProfilePage.gif";
-import Extension from "./media/cBoomDownload.gif";
-
-import { Grid, Box, Divider } from '@mui/material';
 
 function App() {
     return (
