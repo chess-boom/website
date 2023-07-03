@@ -57,7 +57,7 @@
         "mui": "^0.0.1",
         "postcss-flexbugs-fixes": "^5.0.2",
         "postcss-normalize": "^10.0.1",
-        "postcss-preset-env": "^7.8.2",
+        "postcss-preset-env": "^9.0.0",
         "prettier": "^2.7.1",
         "react-app-polyfill": "^3.0.0",
         "react-bootstrap": "^2.5.0",
